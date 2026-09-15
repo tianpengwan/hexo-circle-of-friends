@@ -23,6 +23,3 @@ dev = [
     "pytest-asyncio>=1.1.0",
     "pytest-html>=4.1.1",
 ]
-
-[tool.setuptools]
-packages = ["db", "api", "core", "downloader", "api_dependence", "data_structures"]
