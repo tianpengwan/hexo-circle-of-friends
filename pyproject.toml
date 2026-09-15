@@ -24,7 +24,5 @@ dev = [
     "pytest-html>=4.1.1",
 ]
 
-# 修复多顶级包自动发现失败的问题
 [tool.setuptools]
 packages = ["db", "api", "core", "downloader", "api_dependence", "data_structures"]
-py_modules = []
